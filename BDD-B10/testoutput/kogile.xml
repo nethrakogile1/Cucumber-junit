@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="44.721">
+    <testcase classname="Login features" name="Test Login with Different data" time="15.838">
+        <system-out><![CDATA[Given I am able to navigate onto the login page.............................passed
+When I enter the username as "Admin"........................................passed
+And I enter the password as "admin123"......................................passed
+And I click on the Login button.............................................passed
+Then I should see the user name as "Welcome Rishikesh"......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login features" name="Test Login with Different data 2" time="15.248">
+        <system-out><![CDATA[Given I am able to navigate onto the login page.............................passed
+When I enter the username as "Admin"........................................passed
+And I enter the password as "admin123"......................................passed
+And I click on the Login button.............................................passed
+Then I should see the user name as "Welcome Rishikesh"......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login features" name="Login with Nagative data" time="13.38">
+        <system-out><![CDATA[Given I am able to navigate onto the login page.............................passed
+When I enter the username as "nethra".......................................passed
+And I enter the password as "kogile"........................................passed
+And I click on the Login button.............................................passed
+Then I should see the error message as "invalid user name"..................passed
+]]></system-out>
+    </testcase>
+</testsuite>
